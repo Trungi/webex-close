@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
 
-  "name": "Zoom Closer",
-  "description": "This extension automatically closes the launched window from Zoom meetings.",
+  "name": "Webex Closer",
+  "description": "This extension automatically closes the launched window from Webex meetings.",
   "version": "1.6",
 
   "icons": {
@@ -20,11 +20,7 @@
   "content_scripts": [
     {
       "matches": [
-        "https://zoom.us/postattendee",
-        "https://zoom.us/j/*",
-        "https://*.zoom.us/j/*",
-        "https://zoom.us/s/*",
-        "https://*.zoom.us/s/*"
+        "https://*.webex.com/webappng/sites/*/meeting/download/*"
       ],
       "js": [
         "content.js"
