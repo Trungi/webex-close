@@ -3,7 +3,7 @@
 
   "name": "Webex Closer",
   "description": "This extension automatically closes the launched window from Webex meetings.",
-  "version": "1.6",
+  "version": "1.0",
 
   "icons": {
     "16": "assets/icon-16.png",
