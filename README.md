@@ -1,5 +1,7 @@
 # Webex Close
 
+This extension automatically closes webex links in browser
+
 Installation:
   - Download files, unzip
   - Open chrome://extensions
